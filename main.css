@@ -108,6 +108,17 @@ rect:nth-child(11)::after {
   content: "247m";
 }
 
+rect:nth-child(12) {
+  height: 66.6666666667px;
+  background-color: rgba(0, 159, 255, 0.05);
+}
+rect:nth-child(12)::before {
+  content: "Flower";
+}
+rect:nth-child(12)::after {
+  content: "200m";
+}
+
 h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
